@@ -1,0 +1,245 @@
+/* Jai shree ram */
+* {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+nav {
+  background-color: #7c3aed;
+  color: white;
+  border-bottom-left-radius: 40px;
+  margin-left: 10px;
+  /* width: 100vh; */
+}
+#name {
+  font-size: 2rem;
+  padding: 0.5px 53.9px;
+  margin-top: 0px;
+  padding-top: 22px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.tag {
+  color: white;
+  padding: 0rem 2.9rem;
+  font-size: 2.3rem;
+  text-decoration: none;
+}
+#home {
+  font-weight: bold;
+}
+#mid {
+  /* padding: 200px 50px; */
+  background: url(react.svg) no-repeat center center/cover;
+  background-size: 30%;
+  /* background-color: black; */
+  height: 50vh;
+  width: auto;
+  /* display: flex;
+    flex-direction: column; */
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  /* margin: 100px 150px; */
+  font-size: 1rem;
+  /* text-align: center; */
+  position: relative;
+  /* animation-name: ajay; */
+  animation-name: ajay2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  /* animation-fill-mode:inherit; */
+  animation-timing-function: ease-in;
+}
+
+@keyframes ajay2 {
+  0% {
+    top: -1000px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    /* left: 250px; */
+  }
+}
+#midtext {
+  margin: 0px 110px;
+  padding-top: 50px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.hero {
+  color: #6b7280;
+  font-size: 5rem;
+  margin-top: 10px;
+}
+.change {
+  color: #7c3aed;
+}
+#tec {
+  background-color: #f3f4f6;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  /* margin: 100px 200px; */
+  height: auto;
+  width: 100vw;
+}
+#tec h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#tec p {
+  font-size: 2rem;
+}
+#proj {
+  /* background-color: #f3f4f6; */
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+  /* margin: 100px 200px; */
+  height: auto;
+  width: 100vw;
+}
+#proj h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#proj p {
+  font-size: 2rem;
+}
+#proj button {
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #7c3aed;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#blog {
+  /* background-color: #f3f4f6; */
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+  /* margin: 100px 200px; */
+  height: auto;
+  width: 100vw;
+}
+#blog h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#blog p {
+  font-size: 2rem;
+}
+#blog button {
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  /* background-color: #7c3aed; */
+  color: #7c3aed;
+  font-size: x-large;
+  font-weight: bold;
+}
+#last {
+  background-color: #7c3aed;
+  color: white;
+  border-bottom-left-radius: 40px;
+  margin-left: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: x-large;
+}
+#foottext {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  font-size: x-large;
+}
+.l {
+  padding: 10px;
+}
+#ani2 button {
+  position: relative;
+  animation-name: button1;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  /* animation-fill-mode:inherit; */
+  animation-timing-function: ease-in;
+}
+@keyframes button1 {
+  0% {
+    top: -1000px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    /* left: 250px; */
+  }
+}
+#ani3 button {
+    position: relative;
+    animation-name: button2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode:inherit; */
+    animation-timing-function: ease-in;
+  }
+  @keyframes button2 {
+    0% {
+      top: -1000px;
+      left: 0px;
+    }
+    25% {
+      top: 0px;
+      /* left: 250px; */
+    }
+  }
+
+#navi{
+    position: relative;
+    animation-name: ani4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+@keyframes ani4 {
+    from{
+        left:-10000px;
+    }
+    to{
+        left: 0px;
+    }
+}
+#name{
+    position: relative;
+    animation-name: ani5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+@keyframes ani5 {
+    from{
+        right:-10000px;
+    }
+    to{
+        right: 0px;
+    }
+}
